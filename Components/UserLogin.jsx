@@ -24,7 +24,7 @@ class UserLogin extends Component {
                         <div className='d-flex justify-content-center mt-4'>
                         <button type="submit" class="btn btn-warning ">Login</button>
                         </div>
-                        <a className='link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover '>Register here...</a>
+                        <a href='userreg' className='link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover '>Register here...</a>
                         <a className='link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover ms-5'>Forgot/Reset Password</a>
                     </form>
                     </div>
