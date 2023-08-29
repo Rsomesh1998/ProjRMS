@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../css/style.css';
-import Gallery from '../img/gallery-3.jpg';
-import table from '../img/about-bg.jpg';
+
 
 class Orders extends Component {
     render() {
@@ -40,14 +39,48 @@ class Orders extends Component {
                         </div>
                     </header>
 
+
                     <div id='order-tb' className='container'>
-                        <table  class="table table-dark table-striped table-borderless">
-                            <thead className='table-dark'>
+                        <div className="row">
+                        <div className="col-4">
+                        <select  class="form-select" aria-label="Default select example">
+                            <option selected>Veg</option>
+                            <option value="1">Non-Veg</option>
+                        </select>
+                        </div>
+                        </div>
+
+                        <div className="row mt-2">
+                        <div className="col-4">
+                        <select  class="form-select" aria-label="Default select example">
+                            <option selected>MENU</option>
+                            <option value="1">Starter</option>
+                            <option value="2">Main Course</option>
+                            <option value="3">Chinese</option>
+                            <option value="4">Deserts</option>
+                            <option value="5">Soft Drinks</option>
+                        </select> 
+                        </div>
+                        <div className="col-4">
+                        <select  class="form-select" aria-label="Default select example">
+                            <option selected>MENU</option>
+                            <option value="1">Starter</option>
+                            <option value="2">Main Course</option>
+                            <option value="3">Chinese</option>
+                            <option value="4">Deserts</option>
+                            <option value="5">Soft Drinks</option>
+                        </select>
+                        </div>
+                        </div>
+                        <br></br>
+                        <table class="table table-dark table-striped table-borderless">
+                         
+                        <thead className='table-dark'>
                                 <tr>
                                     <th scope="col">#</th>
-                                    <th scope="col">First</th>
-                                    <th scope="col">Last</th>
-                                    <th scope="col">Handle</th>
+                                    <th scope="col">Dish</th>
+                                    <th scope="col">Quantity</th>
+                                    <th scope="col">Price</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -68,8 +101,14 @@ class Orders extends Component {
                                     <td colspan="2">Larry the Bird</td>
                                     <td>@twitter</td>
                                 </tr>
+                                <tr>
+                                </tr>
+                                
                             </tbody>
                         </table>
+                        <div className='d-flex justify-content-center'>
+                        <button className='btn btn-warning '>Confirmed</button>
+                        </div>
                     </div>
 
                 </div>

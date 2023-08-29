@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../css/style.css';
-import Gallery from '../img/gallery-3.jpg';
 import hero from '../img/hero-bg.jpg';
 import {Link} from 'react-router-dom';
 

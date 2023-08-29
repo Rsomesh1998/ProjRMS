@@ -6,11 +6,11 @@ class UserLogin extends Component {
     render() {
         return (
             <React.Fragment>
-                <div className='container-fluid'>
-                <h1 className='text-center'>Member Login</h1>
-                    <form className='mx-auto border border-dark form1'>
+                <div id='userlog' className='container-fluid img-login'>
+                <h1 className='text-center mb-4'>Customer Login</h1>
+                    <form id='form-lg' className='mx-auto'>
                         <div class="mb-3 row ">
-                            <label for="exampleInputEmail1" class="form-label col-5 fs-4">Email</label>
+                            <label for="exampleInputEmail1" class="form-label col-5 fs-4 ">Email</label>
                             <div className='col-7'>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
                             </div> 
@@ -21,9 +21,11 @@ class UserLogin extends Component {
                             <input type="password" class="form-control" id="exampleInputPassword1"/>
                             </div>
                         </div>
-                        <div className='d-flex justify-content-center'>
-                        <button type="submit" class="btn btn-dark">Login</button>
+                        <div className='d-flex justify-content-center mt-4'>
+                        <button type="submit" class="btn btn-warning ">Login</button>
                         </div>
+                        <a className='link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover '>Register here...</a>
+                        <a className='link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover ms-5'>Forgot/Reset Password</a>
                     </form>
                     </div>
                 

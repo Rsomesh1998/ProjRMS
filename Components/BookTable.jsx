@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import '../css/style.css';
-import Gallery from '../img/gallery-3.jpg';
-import table from '../img/about-bg.jpg';
 
 class BookTable extends Component {
     render() {

@@ -1,45 +1,71 @@
-import React, { Component } from 'react'
-
+import React, { Component } from 'react';
+//import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../css/style.css';
 
 class UserReg extends Component {
-  render() {
-    return (
-      <React.Fragment>
-        <div className='container-fluid'>
-                <h1 className='text-center'>Member Login</h1>
-                    <form className='mx-auto border border-dark'>
-                        <div class="mb-3 row ">
-                            <label for="exampleInputEmail1" class="form-label col-5 fs-4">Email</label>
-                            <div className='col-7'>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
-                            </div> 
-                        </div>
-                        <div class="mb-3 row">
-                            <label for="exampleInputPassword1" class="form-label col-5 fs-4">Phone Number</label>
-                            <div className='col-7'>
-                            <input type="text" class="form-control" id="exampleInputPassword1"/>
+    render() {
+        return (
+            <React.Fragment>
+                    <div class="vh-100 bg-image"
+                        >
+                        <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+                            <div class="container h-20">
+                                <div class="row d-flex justify-content-center align-items-center h-50">
+                                    <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                                        <div class="card">
+                                            <div class="card-body p-5 mb-5 mt-5">
+                                                <h2 class="text-uppercase text-center mb-5">Create an account</h2>
+
+                                                <form>
+                                                    <div class="form-outline mb-2">
+                                                        <input type="text" id="form3Example1cg" class="form-control form-control-lg" />
+                                                        <label class="form-label" for="form3Example1cg">Your Name</label>
+                                                    </div>
+
+                                                    <div class="form-outline mb-2">
+                                                        <input type="email" id="form3Example3cg" class="form-control form-control-lg" />
+                                                        <label class="form-label" for="form3Example3cg">Your Email</label>
+                                                    </div>
+
+                                                    <div class="form-outline mb-2">
+                                                        <input type="password" id="form3Example4cg" class="form-control form-control-lg" />
+                                                        <label class="form-label" for="form3Example4cg">Password</label>
+                                                    </div>
+
+                                                    <div class="form-outline mb-2">
+                                                        <input type="password" id="form3Example4cdg" class="form-control form-control-lg" />
+                                                        <label class="form-label" for="form3Example4cdg">Repeat your password</label>
+                                                    </div>
+
+                                                    <div class="form-check d-flex justify-content-center mb-5">
+                                                        <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3cg" />
+                                                        <label class="form-check-label" for="form2Example3g">
+                                                            I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="d-flex justify-content-center">
+                                                        <button type="button"
+                                                            class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Register</button>
+                                                    </div>
+
+                                                    <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="#!"
+                                                        class="fw-bold text-body"><u>Login here</u></a></p>
+
+                                                </form>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="mb-3 row">
-                            <label for="exampleInputPassword1" class="form-label col-5 fs-4">Password</label>
-                            <div className='col-7'>
-                            <input type="password" class="form-control" id="exampleInputPassword1"/>
-                            </div>
-                        </div>
-                        <div class="mb-3 row">
-                            <label for="exampleInputPassword1" class="form-label col-5 fs-4">Password</label>
-                            <div className='col-7'>
-                            <input type="password" class="form-control" id="exampleInputPassword1"/>
-                            </div>
-                        </div>
-                        <div className='d-flex justify-content-center'>
-                        <button type="submit" class="btn btn-success">Login</button>
-                        </div>
-                    </form>
                     </div>
-      </React.Fragment>
-    )
-  }
+                
+
+            </React.Fragment>
+        )
+    }
 }
 
-export default UserReg
+export default UserReg;
