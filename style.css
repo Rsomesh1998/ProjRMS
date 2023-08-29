@@ -1,14 +1,23 @@
-.form1{
-    width:36%;
-    background-color: none;
-    padding: 20px;
-    text-decoration: saddlebrown
+ #userlog{
+    padding-top: 150px;
 }
 
-.hero{
+#form-lg{
+    width:25%;
+    background-color: none;
+    text-decoration: saddlebrown
+    
+}
+
+
+#form-lg div,h1{
+    color: #eee;
+} 
+
+/* .hero{
     background-image: url('../img/gallery-3.jpg');
     height: 100%;
-}  
+}   */
 
 
 
@@ -117,7 +126,7 @@ background-blend-mode: darken;
 } 
 
 .img-order{
-    background:rgba(0,0,0,0.7)url("../img/gallery-5.jpg");
+    background:rgba(0,0,0,0.7)url("../img/menu.jpg");
     width: 100vw;
     height: 100vh; 
     background-size: 100% 100%;
@@ -125,6 +134,56 @@ background-blend-mode: darken;
     position: relative;
     background-blend-mode: darken;
     }
+
+#drop-order{
+    padding-top: 150px;
+} 
+
+ #order-tb select{
+    max-width: 40%;
+    background-color: rgba(128, 128, 128, 0.064);
+    color: white;
+    border-radius: 2px;
+}
+
+#order-tb option{
+    color: black;
+}
+
+.img-login
+    {
+        background:rgba(0,0,0,0.6)url("../img/Login-Img.jpg");
+        width: 100vw;
+        height: 100vh; 
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        background-blend-mode: darken;
+}
+
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+    }
+    .gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+    }
+
+
+
 
 
 
